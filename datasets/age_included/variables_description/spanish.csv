@@ -1,5 +1,6 @@
 Categoría,Nombre,ID
-Año, año, año # A partir del 2016 (incluido)
+Anio_Inicio, año de inicio, año
+Anio_Fin, año de fin, año
 Tumor,Labio cavidad oral y faringe,1
 Tumor,Esófago,2
 Tumor,Estómago,3
@@ -71,6 +72,31 @@ CIE10,C00-C96,33
 CIE10,C91.1,34
 CIE10,C92.0,35
 CIE10,C92.1,36
+Grupo de edad,Total,0
+Grupo de edad,De 0 a 4 años,1
+Grupo de edad,De 5 a 9 años,2
+Grupo de edad,De 10 a 14 años,3
+Grupo de edad,De 15 a 19 años,4
+Grupo de edad,De 20 a 24 años,5
+Grupo de edad,De 25 a 29 años,6
+Grupo de edad,De 30 a 34 años,7
+Grupo de edad,De 35 a 39 años,8
+Grupo de edad,De 40 a 44 años,9
+Grupo de edad,De 45 a 49 años,10
+Grupo de edad,De 50 a 54 años,11
+Grupo de edad,De 55 a 59 años,12
+Grupo de edad,De 60 a 64 años,13
+Grupo de edad,De 65 a 69 años,14
+Grupo de edad,De 70 a 74 años,15
+Grupo de edad,De 75 a 79 años,16
+Grupo de edad,De 80 a 84 años,17
+Grupo de edad,De 85 y más años,18
+Grupo de edad,Menores de 45 años,19
+Grupo de edad,De 45 a 54 años,20
+Grupo de edad,De 55 a 64 años,21
+Grupo de edad,De 65 a 74 años,22
+Grupo de edad,De 75 y más años,23
+Grupo de edad,<55,24
 Medida de Carga,Mortalidad,1
 Medida de Carga,Incidencia,2
 Medida de Carga,Prevalencia,3
@@ -123,79 +149,29 @@ Variable,Número de casos prevalentes a 1 año,
 Variable,Número de casos prevalentes a 3 años,
 Variable,Número de casos prevalentes a 5 años,
 Variable,Número de casos prevalentes totales,
+Variable,Supervivencia neta estandarizada por edad a 1 año (%),
+Variable,Supervivencia neta estandarizada por edad a 3 años (%),
+Variable,Supervivencia neta estandarizada por edad a 5 años (%),
+Variable,Supervivencia neta a 1 año (%),
+Variable,Supervivencia neta a 3 años (%),
+Variable,Supervivencia neta a 5 años (%),
+Variable,Supervivencia observada a 1 año (%),
+Variable,Supervivencia observada a 3 años (%),
+Variable,Supervivencia observada a 5 años (%),
 Variable,Arsenico(As), ug/m3 Contaminantes con valor legislado
-Variable,Benzo(a)pireno(B(a)P), ug/m3 Contaminantes con valor legislado
 Variable,Cadmio(Cd), ug/m3 Contaminantes con valor legislado
 Variable,Niquel(Ni), ug/m3 Contaminantes con valor legislado
 Variable,Particulas(PM2.5), ug/m3 Contaminantes con valor legislado
 Variable,Plomo(Pb), ug/m3 Contaminantes con valor legislado
+Variable,Benceno(C6H6), ug/m3 Contaminantes con valor legislado
 Variable,temp_media_anual, Temperatura media anual
 Variable,temp_max_abs, Temperatura máxima
 Variable,temp_min_abs, Temperatura mínima
 Variable,precipitacion_total, Precipitación total
 Variable,dias_lluvia, Númerode días con lluvia
 Variable,noches_tropicales, Número de noches tropicales
-Variable,Arroz_euros,Euros gastados por persona en arroz en un año
-Variable,Arroz_kg,Kilos consumidos de arroz por persona en un año
-Variable,Azucar_euros,Euros gastados por persona en azúcar en un año
-Variable,Azucar_kg,Kilos consumidos de azúcar por persona en un año
-Variable,Bebidas_espirituosas_euros,Euros gastados por persona en bebidas espirituosas en un año
-Variable,Bebidas_espirituosas_kg,Kilos consumidos de bebidas espirituosas por persona en un año
-Variable,Boll.past.gallet.cere_euros,Euros gastados por persona en bollería pastelería galletas y cereales en un año
-Variable,Boll.past.gallet.cere_kg,Kilos consumidos de bollería pastelería galletas y cereales por persona en un año
-Variable,Cafes_e_infusiones_euros,Euros gastados por persona en cafés e infusiones en un año
-Variable,Cafes_e_infusiones_kg,Kilos consumidos de cafés e infusiones por persona en un año
-Variable,Carne_euros,Euros gastados por persona en carne en un año
-Variable,Carne_kg,Kilos consumidos de carne por persona en un año
-Variable,Cervezas_euros,Euros gastados por persona en cerveza en un año
-Variable,Cervezas_kg,Kilos consumidos de cerveza por persona en un año
-Variable,Chocolates/cacaos/suc_euros,Euros gastados por persona en chocolates cacaos y sucedáneos en un año
-Variable,Chocolates/cacaos/suc_kg,Kilos consumidos de chocolates cacaos y sucedáneos por persona en un año
-Variable,Derivados_lacteos_euros,Euros gastados por persona en derivados lácteos en un año
-Variable,Derivados_lacteos_kg,Kilos consumidos de derivados lácteos por persona en un año
-Variable,Frutas_frescas_euros,Euros gastados por persona en frutas frescas en un año
-Variable,Frutas_frescas_kg,Kilos consumidos de frutas frescas por persona en un año
-Variable,Huevos_euros,Euros gastados por persona en huevos en un año
-Variable,Huevos_kg,Kilos consumidos de huevos por persona en un año
-Variable,Leche_líquida_euros,Euros gastados por persona en leche líquida en un año
-Variable,Leche_líquida_kg,Kilos consumidos de leche líquida por persona en un año
-Variable,Legumbres_euros,Euros gastados por persona en legumbres en un año
-Variable,Legumbres_kg,Kilos consumidos de legumbres por persona en un año
-Variable,Pan_euros,Euros gastados por persona en pan en un año
-Variable,Pan_kg,Kilos consumidos de pan por persona en un año
-Variable,Pasta_euros,Euros gastados por persona en pasta en un año
-Variable,Pasta_kg,Kilos consumidos de pasta por persona en un año
-Variable,Patatas_euros,Euros gastados por persona en patatas en un año
-Variable,Patatas_kg,Kilos consumidos de patatas por persona en un año
-Variable,Pesca_euros,Euros gastados por persona en productos de pesca en un año
-Variable,Pesca_kg,Kilos consumidos de productos de pesca por persona en un año
-Variable,Platos_preparados_euros,Euros gastados por persona en platos preparados en un año
-Variable,Platos_preparados_kg,Kilos consumidos de platos preparados por persona en un año
-Variable,Vinos_euros,Euros gastados por persona en vino en un año
-Variable,Vinos_kg,Kilos consumidos de vino por persona en un año
-Variable,Zumos_euros,Euros gastados por persona en zumos en un año
-Variable,Zumos_kg,Kilos consumidos de zumos por persona en un año
-Variable,Total_mu30df, Número total de fallecidos registrados en el accidente computados a 30 días
-Variable,Total_hg30df, Número total de heridos hospitalizados registrados en el accidente computados a 30 días
-Variable,Total_hl30df, Número total de heridos no hospitalizados registrados en el accidente computados a 30 días
-Variable,Total_vehiculos, Número total de vehículos implicados registrados en el accidente
-Variable,Laboral_leves, Número de accidentes laborales leves
-Variable,Laboral_graves, Número de accidentes laborales graves
-Variable,Laboral_mortales, Número de accidentes laborales mortales
-Variable,Incidencia_accidente_laboral, Incidencia de accidente laboral
-Variable,Leves_enjornada, Número de fallecidos en accidentes leves en jornada laboral
-Variable,Graves_enjornada, Número de fallecidos en accidentes graves en jornada laboral
-Variable,Mortales_enjornada, Número de fallecidos en accidentes mortales en jornada laboral
-Variable,Leves_itinere, Número de fallecidos en accidentes leves en itinere
-Variable,Graves_itinere, Número de fallecidos en accidentes graves en itinere
-Variable,Mortales_itinere, Número de fallecidos en accidentes mortales en itinere
 Variable,RentaNeta, Media de renta neta por hogar
-Variable,SituacionLaboral_Activos_miles, Número de activos (en miles)
-Variable,SituacionLaboral_Inactivos_miles, Número de inactivos (en miles)
-Variable,SituacionLaboral_Ocupados_miles, Número de ocupados (en miles)
-Variable,SituacionLaboral_Parados_miles, Número de parados (en miles)
 Variable,Poblacion, Número de habitantes
-Variable,Tasa_de_riesgo_pobreza, Tasa de riesgo de pobreza porcentaje
-Variable,En_riesgo_de_pobreza, Riesgo de pobreza porcentaje
-Variable,Carencia_material_y_social_severa, Carencia materia y social severa porcentaje
-Variable,Viviendo_en_hogares_con_baja_intensidad_en_el_trabajo, Viviendo en hogares con baja intensidad en el trabajo porcentaje
+Variable,Empleados(miles), Número en miles de empleados en empresas de industria
+Variable,Num_empresas, Número de empresas de industria
+Variable,PIB(millones-industria), Número del PIB de las empresas de industria

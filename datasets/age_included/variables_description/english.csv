@@ -1,5 +1,6 @@
 Category,Name,ID
-Año,year,year # From 2016 (included)
+Anio_Inicio,start year,year
+Anio_Fin,end year,year
 Tumor,Lip, oral cavity and pharynx,1
 Tumor,Esophagus,2
 Tumor,Stomach,3
@@ -17,7 +18,7 @@ Tumor,Cutaneous melanoma,14
 Tumor,Connective tissue and soft tissues,15
 Tumor,Breast,16
 Tumor,Cervix uteri,17
-Tumor,Uterine corpus,18
+Tumor,Corpus uteri,18
 Tumor,Other female genital organs,19
 Tumor,Ovary,20
 Tumor,Prostate,21
@@ -71,6 +72,31 @@ CIE10,C00-C96,33
 CIE10,C91.1,34
 CIE10,C92.0,35
 CIE10,C92.1,36
+Grupo de edad,Total,0
+Grupo de edad,De 0 a 4 años,1
+Grupo de edad,De 5 a 9 años,2
+Grupo de edad,De 10 a 14 años,3
+Grupo de edad,De 15 a 19 años,4
+Grupo de edad,De 20 a 24 años,5
+Grupo de edad,De 25 a 29 años,6
+Grupo de edad,De 30 a 34 años,7
+Grupo de edad,De 35 a 39 años,8
+Grupo de edad,De 40 a 44 años,9
+Grupo de edad,De 45 a 49 años,10
+Grupo de edad,De 50 a 54 años,11
+Grupo de edad,De 55 a 59 años,12
+Grupo de edad,De 60 a 64 años,13
+Grupo de edad,De 65 a 69 años,14
+Grupo de edad,De 70 a 74 años,15
+Grupo de edad,De 75 a 79 años,16
+Grupo de edad,De 80 a 84 años,17
+Grupo de edad,De 85 y más años,18
+Grupo de edad,Menores de 45 años,19
+Grupo de edad,De 45 a 54 años,20
+Grupo de edad,De 55 a 64 años,21
+Grupo de edad,De 65 a 74 años,22
+Grupo de edad,De 75 y más años,23
+Grupo de edad,<55,24
 Medida de Carga,Mortalidad,1
 Medida de Carga,Incidencia,2
 Medida de Carga,Prevalencia,3
@@ -128,74 +154,15 @@ Variable,Benzo(a)pireno(B(a)P),Benzo(a)pyrene (B(a)P) regulated pollutant (µg/m
 Variable,Cadmio(Cd),Cadmium (Cd) regulated pollutant (µg/m³)
 Variable,Niquel(Ni),Nickel (Ni) regulated pollutant (µg/m³)
 Variable,Particulas(PM2.5),PM2.5 particulate matter regulated pollutant (µg/m³)
-Variable,Plomo(Pb),Lead (Pb) regulated pollutant (µg/m³)
+Variable,Benzene (C6H6), µg/m³ regulated pollutants
 Variable,temp_media_anual,Annual mean temperature
 Variable,temp_max_abs,Maximum temperature
 Variable,temp_min_abs,Minimum temperature
 Variable,precipitacion_total,Total precipitation
 Variable,dias_lluvia,Number of rainy days
 Variable,noches_tropicales,Number of tropical nights
-Variable,Arroz_euros,Euros spent per person on rice per year
-Variable,Arroz_kg,Kilograms of rice consumed per person per year
-Variable,Azucar_euros,Euros spent per person on sugar per year
-Variable,Azucar_kg,Kilograms of sugar consumed per person per year
-Variable,Bebidas_espirituosas_euros,Euros spent per person on spirits per year
-Variable,Bebidas_espirituosas_kg,Kilograms of spirits consumed per person per year
-Variable,Boll.past.gallet.cere_euros,Euros spent per person on pastries, cakes, biscuits and cereals per year
-Variable,Boll.past.gallet.cere_kg,Kilograms of pastries, cakes, biscuits and cereals consumed per person per year
-Variable,Cafes_e_infusiones_euros,Euros spent per person on coffee and infusions per year
-Variable,Cafes_e_infusiones_kg,Kilograms of coffee and infusions consumed per person per year
-Variable,Carne_euros,Euros spent per person on meat per year
-Variable,Carne_kg,Kilograms of meat consumed per person per year
-Variable,Cervezas_euros,Euros spent per person on beer per year
-Variable,Cervezas_kg,Kilograms of beer consumed per person per year
-Variable,Chocolates/cacaos/suc_euros,Euros spent per person on chocolate, cocoa and substitutes per year
-Variable,Chocolates/cacaos/suc_kg,Kilograms of chocolate, cocoa and substitutes consumed per person per year
-Variable,Derivados_lacteos_euros,Euros spent per person on dairy products per year
-Variable,Derivados_lacteos_kg,Kilograms of dairy products consumed per person per year
-Variable,Frutas_frescas_euros,Euros spent per person on fresh fruit per year
-Variable,Frutas_frescas_kg,Kilograms of fresh fruit consumed per person per year
-Variable,Huevos_euros,Euros spent per person on eggs per year
-Variable,Huevos_kg,Kilograms of eggs consumed per person per year
-Variable,Leche_líquida_euros,Euros spent per person on liquid milk per year
-Variable,Leche_líquida_kg,Kilograms of liquid milk consumed per person per year
-Variable,Legumbres_euros,Euros spent per person on legumes per year
-Variable,Legumbres_kg,Kilograms of legumes consumed per person per year
-Variable,Pan_euros,Euros spent per person on bread per year
-Variable,Pan_kg,Kilograms of bread consumed per person per year
-Variable,Pasta_euros,Euros spent per person on pasta per year
-Variable,Pasta_kg,Kilograms of pasta consumed per person per year
-Variable,Patatas_euros,Euros spent per person on potatoes per year
-Variable,Patatas_kg,Kilograms of potatoes consumed per person per year
-Variable,Pesca_euros,Euros spent per person on fish and seafood products per year
-Variable,Pesca_kg,Kilograms of fish and seafood products consumed per person per year
-Variable,Platos_preparados_euros,Euros spent per person on ready meals per year
-Variable,Platos_preparados_kg,Kilograms of ready meals consumed per person per year
-Variable,Vinos_euros,Euros spent per person on wine per year
-Variable,Vinos_kg,Kilograms of wine consumed per person per year
-Variable,Zumos_euros,Euros spent per person on juices per year
-Variable,Zumos_kg,Kilograms of juices consumed per person per year
-Variable,Total_mu30df,Total number of fatalities recorded in the accident within 30 days
-Variable,Total_hg30df,Total number of hospitalized injured persons recorded in the accident within 30 days
-Variable,Total_hl30df,Total number of non-hospitalized injured persons recorded in the accident within 30 days
-Variable,Total_vehiculos,Total number of vehicles involved in the accident
-Variable,Laboral_leves,Number of minor occupational accidents
-Variable,Laboral_graves,Number of serious occupational accidents
-Variable,Laboral_mortales,Number of fatal occupational accidents
-Variable,Incidencia_accidente_laboral,Occupational accident incidence rate
-Variable,Leves_enjornada,Number of deaths in minor workplace accidents
-Variable,Graves_enjornada,Number of deaths in serious workplace accidents
-Variable,Mortales_enjornada,Number of deaths in fatal workplace accidents
-Variable,Leves_itinere,Number of deaths in minor commuting accidents
-Variable,Graves_itinere,Number of deaths in serious commuting accidents
-Variable,Mortales_itinere,Number of deaths in fatal commuting accidents
-Variable,RentaNeta,Mean net household income
-Variable,SituacionLaboral_Activos_miles,Economically active population (thousands)
-Variable,SituacionLaboral_Inactivos_miles,Economically inactive population (thousands)
-Variable,SituacionLaboral_Ocupados_miles,Employed population (thousands)
-Variable,SituacionLaboral_Parados_miles,Unemployed population (thousands)
-Variable,Poblacion,Population
-Variable,Tasa_de_riesgo_pobreza,At-risk-of-poverty rate (%)
-Variable,En_riesgo_de_pobreza,Population at risk of poverty (%)
-Variable,Carencia_material_y_social_severa,Severe material and social deprivation (%)
-Variable,Viviendo_en_hogares_con_baja_intensidad_en_el_trabajo,Living in households with low work intensity (%)
+Variable,RentaNeta, Average net household income
+Variable,Ploblacion, Number of inhabitants
+Variable,Empleados(miles), Number of employees in industry (thousands)
+Variable,Num_empresas, Number of industrial companies
+Variable,PIB(millones-industria), Industrial GDP (millions)
