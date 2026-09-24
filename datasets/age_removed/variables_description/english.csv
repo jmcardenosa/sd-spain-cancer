@@ -1,6 +1,6 @@
 Category,Name,ID
-Año,year,year # From 2016 (included)
-Tumor,Lip, oral cavity and pharynx,1
+Year,year,year # From 2016
+Tumor,Lip oral cavity and pharynx,1
 Tumor,Esophagus,2
 Tumor,Stomach,3
 Tumor,Small intestine,4
@@ -35,167 +35,167 @@ Tumor,Total,32
 Tumor,Chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL),33
 Tumor,Acute myeloid leukemia (AML),34
 Tumor,Chronic myeloid leukemia (CML),35
-CIE10,C00-C14,1
-CIE10,C15,2
-CIE10,C16,3
-CIE10,C17,4
-CIE10,C18,5
-CIE10,C19-C21,6
-CIE10,C18-C21,7
-CIE10,C22,8
-CIE10,C23-C24,9
-CIE10,C25,10
-CIE10,C32,11
-CIE10,C33-C34,12
-CIE10,C40-C41,13
-CIE10,C43,14
-CIE10,C47C49,15
-CIE10,C50,16
-CIE10,C53,17
-CIE10,C54,18
-CIE10,C51C52C55C57C58,19
-CIE10,C56,20
-CIE10,C61,21
-CIE10,C62,22
-CIE10,C64,23
-CIE10,C67,24
-CIE10,C67D09.0D41.4,25
-CIE10,C70-C72,26
-CIE10,C73,27
-CIE10,C82-C86C88,28
-CIE10,C81,29
-CIE10,C90,30
-CIE10,C91-C95,31
-CIE10,C00-C96 except C44,32
-CIE10,C00-C96,33
-CIE10,C91.1,34
-CIE10,C92.0,35
-CIE10,C92.1,36
-Medida de Carga,Mortalidad,1
-Medida de Carga,Incidencia,2
-Medida de Carga,Prevalencia,3
-Medida de Carga,Supervivencia,4
-Sexo,Male/s,1
-Sexo,Female/s,2
-Sexo,Both,3
-CCAA,Spain,00
-CCAA,Andalusia,01
-CCAA,Aragon,02
-CCAA,Principality of Asturias,03
-CCAA,Balearic Islands,04
-CCAA,Canary Islands,05
-CCAA,Cantabria,06
-CCAA,Castile and León,07
-CCAA,Castilla-La Mancha,08
-CCAA,Catalonia,09
-CCAA,Valencian Community,10
-CCAA,Extremadura,11
-CCAA,Galicia,12
-CCAA,Community of Madrid,13
-CCAA,Region of Murcia,14
-CCAA,Chartered Community of Navarre,15
-CCAA,Basque Country,16
-CCAA,La Rioja,17
-CCAA,Ceuta,18
-CCAA,Melilla,19
-CCAA,Ceuta and Melilla,20
-CCAA,Residents Abroad,22
-CCAA,Abroad,22
-CCAA,Unknown,23
-Variable,Tasa cruda,Crude rate
-Variable,defunciones,Number of deaths
-Variable,Tasa ajustada a la población europea,Age-adjusted rate to the European population
-Variable,Tasa ajustada a la población mundial,Age-adjusted rate to the world population
-Variable,Casos nuevos,New cases
-Variable,Proporción a 1 año bruta (x100.000 habitantes),1-year crude prevalence proportion (per 100,000 inhabitants)
-Variable,Proporción a 3 años bruta (x100.000 habitantes),3-year crude prevalence proportion (per 100,000 inhabitants)
-Variable,Proporción a 5 años bruta (x100.000 habitantes),5-year crude prevalence proportion (per 100,000 inhabitants)
-Variable,Proporción total bruta (x100.000 habitantes),Total crude prevalence proportion (per 100,000 inhabitants)
-Variable,Proporción a 1 año estandarizada por edad según la población europea 2013 (x100.000 habitantes),1-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants)
-Variable,Proporción a 3 años estandarizada por edad según la población europea 2013 (x100.000 habitantes),3-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants)
-Variable,Proporción a 5 años estandarizada por edad según la población europea 2013 (x100.000 habitantes),5-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants)
-Variable,Proporción total estandarizada por edad según la población europea 2013 (x100.000 habitantes),Total age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants)
-Variable,Proporción a 1 año estandarizada por edad según la población mundial 2013 (x100.000 habitantes),1-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants)
-Variable,Proporción a 3 años estandarizada por edad según la población mundial 2013 (x100.000 habitantes),3-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants)
-Variable,Proporción a 5 años estandarizada por edad según la población mundial 2013 (x100.000 habitantes),5-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants)
-Variable,Proporción total estandarizada por edad según la población mundial 2013 (x100.000 habitantes),Total age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants)
-Variable,Número de casos prevalentes a 1 año,Number of prevalent cases at 1 year
-Variable,Número de casos prevalentes a 3 años,Number of prevalent cases at 3 years
-Variable,Número de casos prevalentes a 5 años,Number of prevalent cases at 5 years
-Variable,Número de casos prevalentes totales,Total number of prevalent cases
-Variable,Arsenico(As),Arsenic (As) regulated pollutant (µg/m³)
-Variable,Benzo(a)pireno(B(a)P),Benzo(a)pyrene (B(a)P) regulated pollutant (µg/m³)
-Variable,Cadmio(Cd),Cadmium (Cd) regulated pollutant (µg/m³)
-Variable,Niquel(Ni),Nickel (Ni) regulated pollutant (µg/m³)
-Variable,Particulas(PM2.5),PM2.5 particulate matter regulated pollutant (µg/m³)
-Variable,Plomo(Pb),Lead (Pb) regulated pollutant (µg/m³)
-Variable,temp_media_anual,Annual mean temperature
-Variable,temp_max_abs,Maximum temperature
-Variable,temp_min_abs,Minimum temperature
-Variable,precipitacion_total,Total precipitation
-Variable,dias_lluvia,Number of rainy days
-Variable,noches_tropicales,Number of tropical nights
-Variable,Arroz_euros,Euros spent per person on rice per year
-Variable,Arroz_kg,Kilograms of rice consumed per person per year
-Variable,Azucar_euros,Euros spent per person on sugar per year
-Variable,Azucar_kg,Kilograms of sugar consumed per person per year
-Variable,Bebidas_espirituosas_euros,Euros spent per person on spirits per year
-Variable,Bebidas_espirituosas_kg,Kilograms of spirits consumed per person per year
-Variable,Boll.past.gallet.cere_euros,Euros spent per person on pastries, cakes, biscuits and cereals per year
-Variable,Boll.past.gallet.cere_kg,Kilograms of pastries, cakes, biscuits and cereals consumed per person per year
-Variable,Cafes_e_infusiones_euros,Euros spent per person on coffee and infusions per year
-Variable,Cafes_e_infusiones_kg,Kilograms of coffee and infusions consumed per person per year
-Variable,Carne_euros,Euros spent per person on meat per year
-Variable,Carne_kg,Kilograms of meat consumed per person per year
-Variable,Cervezas_euros,Euros spent per person on beer per year
-Variable,Cervezas_kg,Kilograms of beer consumed per person per year
-Variable,Chocolates/cacaos/suc_euros,Euros spent per person on chocolate, cocoa and substitutes per year
-Variable,Chocolates/cacaos/suc_kg,Kilograms of chocolate, cocoa and substitutes consumed per person per year
-Variable,Derivados_lacteos_euros,Euros spent per person on dairy products per year
-Variable,Derivados_lacteos_kg,Kilograms of dairy products consumed per person per year
-Variable,Frutas_frescas_euros,Euros spent per person on fresh fruit per year
-Variable,Frutas_frescas_kg,Kilograms of fresh fruit consumed per person per year
-Variable,Huevos_euros,Euros spent per person on eggs per year
-Variable,Huevos_kg,Kilograms of eggs consumed per person per year
-Variable,Leche_líquida_euros,Euros spent per person on liquid milk per year
-Variable,Leche_líquida_kg,Kilograms of liquid milk consumed per person per year
-Variable,Legumbres_euros,Euros spent per person on legumes per year
-Variable,Legumbres_kg,Kilograms of legumes consumed per person per year
-Variable,Pan_euros,Euros spent per person on bread per year
-Variable,Pan_kg,Kilograms of bread consumed per person per year
-Variable,Pasta_euros,Euros spent per person on pasta per year
-Variable,Pasta_kg,Kilograms of pasta consumed per person per year
-Variable,Patatas_euros,Euros spent per person on potatoes per year
-Variable,Patatas_kg,Kilograms of potatoes consumed per person per year
-Variable,Pesca_euros,Euros spent per person on fish and seafood products per year
-Variable,Pesca_kg,Kilograms of fish and seafood products consumed per person per year
-Variable,Platos_preparados_euros,Euros spent per person on ready meals per year
-Variable,Platos_preparados_kg,Kilograms of ready meals consumed per person per year
-Variable,Vinos_euros,Euros spent per person on wine per year
-Variable,Vinos_kg,Kilograms of wine consumed per person per year
-Variable,Zumos_euros,Euros spent per person on juices per year
-Variable,Zumos_kg,Kilograms of juices consumed per person per year
-Variable,Total_mu30df,Total number of fatalities recorded in the accident within 30 days
-Variable,Total_hg30df,Total number of hospitalized injured persons recorded in the accident within 30 days
-Variable,Total_hl30df,Total number of non-hospitalized injured persons recorded in the accident within 30 days
-Variable,Total_vehiculos,Total number of vehicles involved in the accident
-Variable,Laboral_leves,Number of minor occupational accidents
-Variable,Laboral_graves,Number of serious occupational accidents
-Variable,Laboral_mortales,Number of fatal occupational accidents
-Variable,Incidencia_accidente_laboral,Occupational accident incidence rate
-Variable,Leves_enjornada,Number of deaths in minor workplace accidents
-Variable,Graves_enjornada,Number of deaths in serious workplace accidents
-Variable,Mortales_enjornada,Number of deaths in fatal workplace accidents
-Variable,Leves_itinere,Number of deaths in minor commuting accidents
-Variable,Graves_itinere,Number of deaths in serious commuting accidents
-Variable,Mortales_itinere,Number of deaths in fatal commuting accidents
-Variable,RentaNeta,Mean net household income
-Variable,SituacionLaboral_Activos_miles,Economically active population (thousands)
-Variable,SituacionLaboral_Inactivos_miles,Economically inactive population (thousands)
-Variable,SituacionLaboral_Ocupados_miles,Employed population (thousands)
-Variable,SituacionLaboral_Parados_miles,Unemployed population (thousands)
-Variable,Poblacion,Population
-Variable,Tasa_de_riesgo_pobreza,At-risk-of-poverty rate (%)
-Variable,En_riesgo_de_pobreza,Population at risk of poverty (%)
-Variable,Carencia_material_y_social_severa,Severe material and social deprivation (%)
-Variable,Viviendo_en_hogares_con_baja_intensidad_en_el_trabajo,Living in households with low work intensity (%)
+ICD10,C00-C14,1
+ICD10,C15,2
+ICD10,C16,3
+ICD10,C17,4
+ICD10,C18,5
+ICD10,C19-C21,6
+ICD10,C18-C21,7
+ICD10,C22,8
+ICD10,C23-C24,9
+ICD10,C25,10
+ICD10,C32,11
+ICD10,C33-C34,12
+ICD10,C40-C41,13
+ICD10,C43,14
+ICD10,C47C49,15
+ICD10,C50,16
+ICD10,C53,17
+ICD10,C54,18
+ICD10,C51C52C55C57C58,19
+ICD10,C56,20
+ICD10,C61,21
+ICD10,C62,22
+ICD10,C64,23
+ICD10,C67,24
+ICD10,C67D09.0D41.4,25
+ICD10,C70-C72,26
+ICD10,C73,27
+ICD10,C82-C86C88,28
+ICD10,C81,29
+ICD10,C90,30
+ICD10,C91-C95,31
+ICD10,C00-C96 except C44,32
+ICD10,C00-C96,33
+ICD10,C91.1,34
+ICD10,C92.0,35
+ICD10,C92.1,36
+Burden_Measure,Mortality,1
+Burden_Measure,Incidence,2
+Burden_Measure,Prevalence,3
+Burden_Measure,Survival,4
+Sex,Male,1
+Sex,Female,2
+Sex,Both,3
+Autonomous_Community,Spain,00
+Autonomous_Community,Andalusia,01
+Autonomous_Community,Aragon,02
+Autonomous_Community,Principality of Asturias,03
+Autonomous_Community,Balearic Islands,04
+Autonomous_Community,Canary Islands,05
+Autonomous_Community,Cantabria,06
+Autonomous_Community,Castile and León,07
+Autonomous_Community,Castilla-La Mancha,08
+Autonomous_Community,Catalonia,09
+Autonomous_Community,Valencian Community,10
+Autonomous_Community,Extremadura,11
+Autonomous_Community,Galicia,12
+Autonomous_Community,Community of Madrid,13
+Autonomous_Community,Region of Murcia,14
+Autonomous_Community,Chartered Community of Navarre,15
+Autonomous_Community,Basque Country,16
+Autonomous_Community,La Rioja,17
+Autonomous_Community,Ceuta,18
+Autonomous_Community,Melilla,19
+Autonomous_Community,Ceuta and Melilla,20
+Autonomous_Community,Residents Abroad,22
+Autonomous_Community,Abroad,22
+Autonomous_Community,Unknown,23
+Variable,Crude rate,Crude_Rate
+Variable,Number of deaths,Number_of_Deaths
+Variable,Age-adjusted rate to the European population,Age_Adjusted_Rate_European_Population
+Variable,Age-adjusted rate to the world population,Age_Adjusted_Rate_World_Population
+Variable,New cases,New_Cases
+Variable,1-year crude prevalence proportion (per 100,000 inhabitants),1-Year_Crude_Prevalence_Proportion
+Variable,3-year crude prevalence proportion (per 100,000 inhabitants),3-Year_Crude_Prevalence_Proportion
+Variable,5-year crude prevalence proportion (per 100,000 inhabitants),5-Year_Crude_Prevalence_Proportion
+Variable,Total crude prevalence proportion (per 100,000 inhabitants),Total_Crude_Prevalence_Proportion
+Variable,1-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants),1-Year_Age-Standardized_Prevalence_European_2013
+Variable,3-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants),3-Year_Age-Standardized_Prevalence_European_2013
+Variable,5-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants),5-Year_Age-Standardized_Prevalence_European_2013
+Variable,Total age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants),Total_Age-Standardized_Prevalence_European_2013
+Variable,1-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants),1-Year_Age-Standardized_Prevalence_World_2013
+Variable,3-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants),3-Year_Age-Standardized_Prevalence_World_2013
+Variable,5-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants),5-Year_Age-Standardized_Prevalence_World_2013
+Variable,Total age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants),Total_Age-Standardized_Prevalence_World_2013
+Variable,Number of prevalent cases at 1 year,Prevalent_Cases_1_Year
+Variable,Number of prevalent cases at 3 years,Prevalent_Cases_3_Years
+Variable,Number of prevalent cases at 5 years,Prevalent_Cases_5_Years
+Variable,Total number of prevalent cases,Total_Prevalent_Cases
+Variable,Arsenic (As) regulated pollutant (µg/m³),Arsenic(As)
+Variable,Benzo(a)pyrene (B(a)P) regulated pollutant (µg/m³),Benzo(a)pyrene(B(a)P)
+Variable,Cadmium (Cd) regulated pollutant (µg/m³),Cadmium(Cd)
+Variable,Nickel (Ni) regulated pollutant (µg/m³),Nickel(Ni)
+Variable,PM2.5 particulate matter regulated pollutant (µg/m³),Particulate_Matter(PM2.5)
+Variable,Lead (Pb) regulated pollutant (µg/m³),Lead(Pb)
+Variable,Annual mean temperature,Annual_Mean_Temperature
+Variable,Absolute maximum temperature,Absolute_Maximum_Temperature
+Variable,Absolute minimum temperature,Absolute_Minimum_Temperature
+Variable,Total precipitation,Total_Precipitation
+Variable,Number of rainy days,Rainy_Days
+Variable,Number of tropical nights,Tropical_Nights
+Variable,Euros spent per person on rice per year,Rice_Euros
+Variable,Kilograms of rice consumed per person per year,Rice_Kg
+Variable,Euros spent per person on sugar per year,Sugar_Euros
+Variable,Kilograms of sugar consumed per person per year,Sugar_Kg
+Variable,Euros spent per person on spirits per year,Spirits_Euros
+Variable,Kilograms of spirits consumed per person per year,Spirits_Kg
+Variable,Euros spent per person on pastries, cakes, biscuits and cereals per year,Pastries_Cakes_Biscuits_Cereals_Euros
+Variable,Kilograms of pastries, cakes, biscuits and cereals consumed per person per year,Pastries_Cakes_Biscuits_Cereals_Kg
+Variable,Euros spent per person on coffee and infusions per year,Coffee_Infusions_Euros
+Variable,Kilograms of coffee and infusions consumed per person per year,Coffee_Infusions_Kg
+Variable,Euros spent per person on meat per year,Meat_Euros
+Variable,Kilograms of meat consumed per person per year,Meat_Kg
+Variable,Euros spent per person on beer per year,Beer_Euros
+Variable,Kilograms of beer consumed per person per year,Beer_Kg
+Variable,Euros spent per person on chocolate, cocoa and substitutes per year,Chocolate_Cocoa_Substitutes_Euros
+Variable,Kilograms of chocolate, cocoa and substitutes consumed per person per year,Chocolate_Cocoa_Substitutes_Kg
+Variable,Euros spent per person on dairy products per year,Dairy_Products_Euros
+Variable,Kilograms of dairy products consumed per person per year,Dairy_Products_Kg
+Variable,Euros spent per person on fresh fruit per year,Fresh_Fruit_Euros
+Variable,Kilograms of fresh fruit consumed per person per year,Fresh_Fruit_Kg
+Variable,Euros spent per person on eggs per year,Eggs_Euros
+Variable,Kilograms of eggs consumed per person per year,Eggs_Kg
+Variable,Euros spent per person on liquid milk per year,Liquid_Milk_Euros
+Variable,Kilograms of liquid milk consumed per person per year,Liquid_Milk_Kg
+Variable,Euros spent per person on legumes per year,Legumes_Euros
+Variable,Kilograms of legumes consumed per person per year,Legumes_Kg
+Variable,Euros spent per person on bread per year,Bread_Euros
+Variable,Kilograms of bread consumed per person per year,Bread_Kg
+Variable,Euros spent per person on pasta per year,Pasta_Euros
+Variable,Kilograms of pasta consumed per person per year,Pasta_Kg
+Variable,Euros spent per person on potatoes per year,Potatoes_Euros
+Variable,Kilograms of potatoes consumed per person per year,Potatoes_Kg
+Variable,Euros spent per person on fish and seafood products per year,Fish_Seafood_Euros
+Variable,Kilograms of fish and seafood products consumed per person per year,Fish_Seafood_Kg
+Variable,Euros spent per person on ready meals per year,Ready_Meals_Euros
+Variable,Kilograms of ready meals consumed per person per year,Ready_Meals_Kg
+Variable,Euros spent per person on wine per year,Wine_Euros
+Variable,Kilograms of wine consumed per person per year,Wine_Kg
+Variable,Euros spent per person on juices per year,Juices_Euros
+Variable,Kilograms of juices consumed per person per year,Juices_Kg
+Variable,Total number of fatalities recorded in the accident within 30 days,Total_Fatalities_30_Days
+Variable,Total number of hospitalized injured persons recorded in the accident within 30 days,Total_Hospitalized_Injuries_30_Days
+Variable,Total number of non-hospitalized injured persons recorded in the accident within 30 days,Total_Non-Hospitalized_Injuries_30_Days
+Variable,Total number of vehicles involved in the accident,Total_Vehicles
+Variable,Number of minor occupational accidents,Minor_Occupational_Accidents
+Variable,Number of serious occupational accidents,Serious_Occupational_Accidents
+Variable,Number of fatal occupational accidents,Fatal_Occupational_Accidents
+Variable,Occupational accident incidence rate,Occupational_Accident_Incidence_Rate
+Variable,Number of deaths in minor workplace accidents,Deaths_Minor_Workplace_Accidents
+Variable,Number of deaths in serious workplace accidents,Deaths_Serious_Workplace_Accidents
+Variable,Number of deaths in fatal workplace accidents,Deaths_Fatal_Workplace_Accidents
+Variable,Number of deaths in minor commuting accidents,Deaths_Minor_Commuting_Accidents
+Variable,Number of deaths in serious commuting accidents,Deaths_Serious_Commuting_Accidents
+Variable,Number of deaths in fatal commuting accidents,Deaths_Fatal_Commuting_Accidents
+Variable,Mean net household income,Net_Household_Income
+Variable,Economically active population (thousands),Economically_Active_Population_Thousands
+Variable,Economically inactive population (thousands),Economically_Inactive_Population_Thousands
+Variable,Employed population (thousands),Employed_Population_Thousands
+Variable,Unemployed population (thousands),Unemployed_Population_Thousands
+Variable,Population,Population
+Variable,At-risk-of-poverty rate (%),At_Risk_of_Poverty_Rate
+Variable,Population at risk of poverty (%),Population_At_Risk_of_Poverty
+Variable,Severe material and social deprivation (%),Severe_Material_and_Social_Deprivation
+Variable,Living in households with low work intensity (%),Living_in_Households_with_Low_Work_Intensity

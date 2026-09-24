@@ -1,7 +1,7 @@
 Category,Name,ID
-Anio_Inicio,start year,year
-Anio_Fin,end year,year
-Tumor,Lip, oral cavity and pharynx,1
+Start_Year,Start year,year
+End_Year,End year,year
+Tumor,Lip oral cavity and pharynx,1
 Tumor,Esophagus,2
 Tumor,Stomach,3
 Tumor,Small intestine,4
@@ -31,138 +31,138 @@ Tumor,Non-Hodgkin lymphoma,27
 Tumor,Hodgkin lymphoma,28
 Tumor,Multiple myeloma,29
 Tumor,Leukemias,30
-Tumor,Total excluding non-melanoma skin,31
+Tumor,Total excluding non-melanoma skin cancer,31
 Tumor,Total,32
 Tumor,Chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL),33
 Tumor,Acute myeloid leukemia (AML),34
 Tumor,Chronic myeloid leukemia (CML),35
-CIE10,C00-C14,1
-CIE10,C15,2
-CIE10,C16,3
-CIE10,C17,4
-CIE10,C18,5
-CIE10,C19-C21,6
-CIE10,C18-C21,7
-CIE10,C22,8
-CIE10,C23-C24,9
-CIE10,C25,10
-CIE10,C32,11
-CIE10,C33-C34,12
-CIE10,C40-C41,13
-CIE10,C43,14
-CIE10,C47C49,15
-CIE10,C50,16
-CIE10,C53,17
-CIE10,C54,18
-CIE10,C51C52C55C57C58,19
-CIE10,C56,20
-CIE10,C61,21
-CIE10,C62,22
-CIE10,C64,23
-CIE10,C67,24
-CIE10,C67D09.0D41.4,25
-CIE10,C70-C72,26
-CIE10,C73,27
-CIE10,C82-C86C88,28
-CIE10,C81,29
-CIE10,C90,30
-CIE10,C91-C95,31
-CIE10,C00-C96 except C44,32
-CIE10,C00-C96,33
-CIE10,C91.1,34
-CIE10,C92.0,35
-CIE10,C92.1,36
-Grupo de edad,Total,0
-Grupo de edad,De 0 a 4 años,1
-Grupo de edad,De 5 a 9 años,2
-Grupo de edad,De 10 a 14 años,3
-Grupo de edad,De 15 a 19 años,4
-Grupo de edad,De 20 a 24 años,5
-Grupo de edad,De 25 a 29 años,6
-Grupo de edad,De 30 a 34 años,7
-Grupo de edad,De 35 a 39 años,8
-Grupo de edad,De 40 a 44 años,9
-Grupo de edad,De 45 a 49 años,10
-Grupo de edad,De 50 a 54 años,11
-Grupo de edad,De 55 a 59 años,12
-Grupo de edad,De 60 a 64 años,13
-Grupo de edad,De 65 a 69 años,14
-Grupo de edad,De 70 a 74 años,15
-Grupo de edad,De 75 a 79 años,16
-Grupo de edad,De 80 a 84 años,17
-Grupo de edad,De 85 y más años,18
-Grupo de edad,Menores de 45 años,19
-Grupo de edad,De 45 a 54 años,20
-Grupo de edad,De 55 a 64 años,21
-Grupo de edad,De 65 a 74 años,22
-Grupo de edad,De 75 y más años,23
-Grupo de edad,<55,24
-Medida de Carga,Mortalidad,1
-Medida de Carga,Incidencia,2
-Medida de Carga,Prevalencia,3
-Medida de Carga,Supervivencia,4
-Sexo,Male/s,1
-Sexo,Female/s,2
-Sexo,Both,3
-CCAA,Spain,00
-CCAA,Andalusia,01
-CCAA,Aragon,02
-CCAA,Principality of Asturias,03
-CCAA,Balearic Islands,04
-CCAA,Canary Islands,05
-CCAA,Cantabria,06
-CCAA,Castile and León,07
-CCAA,Castilla-La Mancha,08
-CCAA,Catalonia,09
-CCAA,Valencian Community,10
-CCAA,Extremadura,11
-CCAA,Galicia,12
-CCAA,Community of Madrid,13
-CCAA,Region of Murcia,14
-CCAA,Chartered Community of Navarre,15
-CCAA,Basque Country,16
-CCAA,La Rioja,17
-CCAA,Ceuta,18
-CCAA,Melilla,19
-CCAA,Ceuta and Melilla,20
-CCAA,Residents Abroad,22
-CCAA,Abroad,22
-CCAA,Unknown,23
-Variable,Tasa cruda,Crude rate
-Variable,defunciones,Number of deaths
-Variable,Tasa ajustada a la población europea,Age-adjusted rate to the European population
-Variable,Tasa ajustada a la población mundial,Age-adjusted rate to the world population
-Variable,Casos nuevos,New cases
-Variable,Proporción a 1 año bruta (x100.000 habitantes),1-year crude prevalence proportion (per 100,000 inhabitants)
-Variable,Proporción a 3 años bruta (x100.000 habitantes),3-year crude prevalence proportion (per 100,000 inhabitants)
-Variable,Proporción a 5 años bruta (x100.000 habitantes),5-year crude prevalence proportion (per 100,000 inhabitants)
-Variable,Proporción total bruta (x100.000 habitantes),Total crude prevalence proportion (per 100,000 inhabitants)
-Variable,Proporción a 1 año estandarizada por edad según la población europea 2013 (x100.000 habitantes),1-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants)
-Variable,Proporción a 3 años estandarizada por edad según la población europea 2013 (x100.000 habitantes),3-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants)
-Variable,Proporción a 5 años estandarizada por edad según la población europea 2013 (x100.000 habitantes),5-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants)
-Variable,Proporción total estandarizada por edad según la población europea 2013 (x100.000 habitantes),Total age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants)
-Variable,Proporción a 1 año estandarizada por edad según la población mundial 2013 (x100.000 habitantes),1-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants)
-Variable,Proporción a 3 años estandarizada por edad según la población mundial 2013 (x100.000 habitantes),3-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants)
-Variable,Proporción a 5 años estandarizada por edad según la población mundial 2013 (x100.000 habitantes),5-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants)
-Variable,Proporción total estandarizada por edad según la población mundial 2013 (x100.000 habitantes),Total age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants)
-Variable,Número de casos prevalentes a 1 año,Number of prevalent cases at 1 year
-Variable,Número de casos prevalentes a 3 años,Number of prevalent cases at 3 years
-Variable,Número de casos prevalentes a 5 años,Number of prevalent cases at 5 years
-Variable,Número de casos prevalentes totales,Total number of prevalent cases
-Variable,Arsenico(As),Arsenic (As) regulated pollutant (µg/m³)
-Variable,Benzo(a)pireno(B(a)P),Benzo(a)pyrene (B(a)P) regulated pollutant (µg/m³)
-Variable,Cadmio(Cd),Cadmium (Cd) regulated pollutant (µg/m³)
-Variable,Niquel(Ni),Nickel (Ni) regulated pollutant (µg/m³)
-Variable,Particulas(PM2.5),PM2.5 particulate matter regulated pollutant (µg/m³)
-Variable,Benzene (C6H6), µg/m³ regulated pollutants
-Variable,temp_media_anual,Annual mean temperature
-Variable,temp_max_abs,Maximum temperature
-Variable,temp_min_abs,Minimum temperature
-Variable,precipitacion_total,Total precipitation
-Variable,dias_lluvia,Number of rainy days
-Variable,noches_tropicales,Number of tropical nights
-Variable,RentaNeta, Average net household income
-Variable,Ploblacion, Number of inhabitants
-Variable,Empleados(miles), Number of employees in industry (thousands)
-Variable,Num_empresas, Number of industrial companies
-Variable,PIB(millones-industria), Industrial GDP (millions)
+ICD10,C00-C14,1
+ICD10,C15,2
+ICD10,C16,3
+ICD10,C17,4
+ICD10,C18,5
+ICD10,C19-C21,6
+ICD10,C18-C21,7
+ICD10,C22,8
+ICD10,C23-C24,9
+ICD10,C25,10
+ICD10,C32,11
+ICD10,C33-C34,12
+ICD10,C40-C41,13
+ICD10,C43,14
+ICD10,C47C49,15
+ICD10,C50,16
+ICD10,C53,17
+ICD10,C54,18
+ICD10,C51C52C55C57C58,19
+ICD10,C56,20
+ICD10,C61,21
+ICD10,C62,22
+ICD10,C64,23
+ICD10,C67,24
+ICD10,C67D09.0D41.4,25
+ICD10,C70-C72,26
+ICD10,C73,27
+ICD10,C82-C86C88,28
+ICD10,C81,29
+ICD10,C90,30
+ICD10,C91-C95,31
+ICD10,C00-C96 except C44,32
+ICD10,C00-C96,33
+ICD10,C91.1,34
+ICD10,C92.0,35
+ICD10,C92.1,36
+Age_Group,Total,0
+Age_Group,From 0 to 4 years,1
+Age_Group,From 5 to 9 years,2
+Age_Group,From 10 to 14 years,3
+Age_Group,From 15 to 19 years,4
+Age_Group,From 20 to 24 years,5
+Age_Group,From 25 to 29 years,6
+Age_Group,From 30 to 34 years,7
+Age_Group,From 35 to 39 years,8
+Age_Group,From 40 to 44 years,9
+Age_Group,From 45 to 49 years,10
+Age_Group,From 50 to 54 years,11
+Age_Group,From 55 to 59 years,12
+Age_Group,From 60 to 64 years,13
+Age_Group,From 65 to 69 years,14
+Age_Group,From 70 to 74 years,15
+Age_Group,From 75 to 79 years,16
+Age_Group,From 80 to 84 years,17
+Age_Group,85 years and over,18
+Age_Group,Under 45 years,19
+Age_Group,From 45 to 54 years,20
+Age_Group,From 55 to 64 years,21
+Age_Group,From 65 to 74 years,22
+Age_Group,75 years and over,23
+Age_Group,<55,24
+Burden_Measure,Mortality,1
+Burden_Measure,Incidence,2
+Burden_Measure,Prevalence,3
+Burden_Measure,Survival,4
+Sex,Male,1
+Sex,Female,2
+Sex,Both,3
+Autonomous_Community,Spain,00
+Autonomous_Community,Andalusia,01
+Autonomous_Community,Aragon,02
+Autonomous_Community,Principality of Asturias,03
+Autonomous_Community,Balearic Islands,04
+Autonomous_Community,Canary Islands,05
+Autonomous_Community,Cantabria,06
+Autonomous_Community,Castile and León,07
+Autonomous_Community,Castilla-La Mancha,08
+Autonomous_Community,Catalonia,09
+Autonomous_Community,Valencian Community,10
+Autonomous_Community,Extremadura,11
+Autonomous_Community,Galicia,12
+Autonomous_Community,Community of Madrid,13
+Autonomous_Community,Region of Murcia,14
+Autonomous_Community,Chartered Community of Navarre,15
+Autonomous_Community,Basque Country,16
+Autonomous_Community,La Rioja,17
+Autonomous_Community,Ceuta,18
+Autonomous_Community,Melilla,19
+Autonomous_Community,Ceuta and Melilla,20
+Autonomous_Community,Residents Abroad,22
+Autonomous_Community,Abroad,22
+Autonomous_Community,Unknown,23
+Variable,Crude rate,Crude_Rate
+Variable,Number of deaths,Number_of_Deaths
+Variable,Age-adjusted rate to the European population,Age_Adjusted_Rate_European_Population
+Variable,Age-adjusted rate to the world population,Age_Adjusted_Rate_World_Population
+Variable,New cases,New_Cases
+Variable,1-year crude prevalence proportion (per 100,000 inhabitants),1-Year_Crude_Prevalence_Proportion
+Variable,3-year crude prevalence proportion (per 100,000 inhabitants),3-Year_Crude_Prevalence_Proportion
+Variable,5-year crude prevalence proportion (per 100,000 inhabitants),5-Year_Crude_Prevalence_Proportion
+Variable,Total crude prevalence proportion (per 100,000 inhabitants),Total_Crude_Prevalence_Proportion
+Variable,1-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants),1-Year_Age-Standardized_Prevalence_European_2013
+Variable,3-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants),3-Year_Age-Standardized_Prevalence_European_2013
+Variable,5-year age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants),5-Year_Age-Standardized_Prevalence_European_2013
+Variable,Total age-standardized prevalence proportion according to the 2013 European population (per 100,000 inhabitants),Total_Age-Standardized_Prevalence_European_2013
+Variable,1-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants),1-Year_Age-Standardized_Prevalence_World_2013
+Variable,3-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants),3-Year_Age-Standardized_Prevalence_World_2013
+Variable,5-year age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants),5-Year_Age-Standardized_Prevalence_World_2013
+Variable,Total age-standardized prevalence proportion according to the 2013 world population (per 100,000 inhabitants),Total_Age-Standardized_Prevalence_World_2013
+Variable,Number of prevalent cases at 1 year,Prevalent_Cases_1_Year
+Variable,Number of prevalent cases at 3 years,Prevalent_Cases_3_Years
+Variable,Number of prevalent cases at 5 years,Prevalent_Cases_5_Years
+Variable,Total number of prevalent cases,Total_Prevalent_Cases
+Variable,Arsenic (As) regulated pollutant (µg/m³),Arsenic(As)
+Variable,Benzo(a)pyrene (B(a)P) regulated pollutant (µg/m³),Benzo(a)pyrene(B(a)P)
+Variable,Cadmium (Cd) regulated pollutant (µg/m³),Cadmium(Cd)
+Variable,Nickel (Ni) regulated pollutant (µg/m³),Nickel(Ni)
+Variable,PM2.5 particulate matter regulated pollutant (µg/m³),Particulate_Matter(PM2.5)
+Variable,Benzene (C6H6) regulated pollutant (µg/m³),Benzene(C6H6)
+Variable,Annual mean temperature,Annual_Mean_Temperature
+Variable,Absolute maximum temperature,Absolute_Maximum_Temperature
+Variable,Absolute minimum temperature,Absolute_Minimum_Temperature
+Variable,Total precipitation,Total_Precipitation
+Variable,Number of rainy days,Rainy_Days
+Variable,Number of tropical nights,Tropical_Nights
+Variable,Average net household income,Net_Household_Income
+Variable,Number of inhabitants,Population
+Variable,Number of employees in industry (thousands),Employees(Thousands)
+Variable,Number of industrial companies,Number_of_Industrial_Companies
+Variable,Industrial GDP (millions),Industrial_GDP(Millions)
