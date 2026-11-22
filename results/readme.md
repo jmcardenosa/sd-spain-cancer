@@ -6,7 +6,7 @@ The following table details the variables included in the study along with the a
 | `Arsenic(As)` | — |
 | `Cadmium(Cd)` | — |
 | `Nickel(Ni)` | — |
-| `Particulate_Matter(PM2.5)` | **PM25** |
+| `Particulate_Matter(PM2.5)` | **PM2.5** |
 | `Lead(Pb)` | — |
 | `Annual_Mean_Temperature` | **AMT** |
 | `Absolute_Maximum_Temperature` | **AMXT** |
